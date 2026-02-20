@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- Virtual envs ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Data (keep only sample in public repo) ---
+data/raw/*
+!data/raw/medical_cost_sample.csv
+
+data/processed/
+
+# --- Outputs (generated figures/results) ---
+outputs/
+*.png
+*.pdf
+*.html
+
+!outputs/figures/
+!outputs/figures/*.png
+
+# --- Logs / temp ---
+*.log
+*.tmp
